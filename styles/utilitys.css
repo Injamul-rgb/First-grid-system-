@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-violet: hsl(263, 55%, 52%);
+  --clr-grayish-blue: hsl(217, 19%, 35%);
+  --clr-blackish-blue: hsl(219, 29%, 14%);
+  --ff-primary: "Barlow Semi Condensed", sans-serif;
+  --clr-light: hsl(210, 46%, 95%);
+  --clr-dark: hsl(0, 0%, 81%);
+}
+
+img {
+  max-width: 100%;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-family: var(--ff-primary);
+  font-weight: 600;
+}
+
+.name {
+  font-family: var(--ff-primary);
+  font-weight: 500;
+}
+
+.txt {
+  font-family: var(--ff-primary);
+}
+/*# sourceMappingURL=utilitys.css.map */
